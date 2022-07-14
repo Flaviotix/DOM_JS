@@ -4,7 +4,7 @@ body{
 }
 
 .question-cliked{
-    background-color: blue;
+    background-color:rgb(100, 93, 62);
     border-radius: 30px;
     border: 6px dashed pink;
 }
@@ -16,4 +16,12 @@ p{
     visibility: visible;
     opacity: 1;
     transform: translateX(0);
+}
+
+.mousemove{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid pink;
+    position:absolute;
 }
